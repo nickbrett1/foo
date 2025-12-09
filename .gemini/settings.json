@@ -10,6 +10,16 @@
         "-y",
         "@modelcontextprotocol/server-chrome"
       ]
+    },
+    "circleci": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-circleci"
+      ],
+      "env": {
+        "CIRCLE_API_TOKEN": "$CIRCLE_API_TOKEN"
+      }
     }
   }
 }

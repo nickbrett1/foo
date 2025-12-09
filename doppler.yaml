@@ -1,0 +1,3 @@
+setup:
+  project: my-project
+  config: dev
